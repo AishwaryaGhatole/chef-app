@@ -44,7 +44,7 @@ main {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
   flex-grow: 1;
   min-width: 150px;
-  max-width: 400px;
+  max-width: 80%;
 }
 
 .add-ingredient-form > button {
@@ -91,6 +91,7 @@ ul.ingredients-list > li {
     color: #363e4a;
 }
 
+
 .get-recipe-container p {
   color: #6B7280;
   font-size: 0.875rem;
@@ -122,5 +123,5 @@ ul.ingredients-list > li {
 }
 
 .suggested-recipe-container, .recipe-ingredients-section{
-  margin-inline: 100px;
+  margin-inline: 5%;
 }
